@@ -1,0 +1,111 @@
+.first{
+    
+    background-color:lightgrey;
+}
+
+
+body > div.container.second{
+    
+    margin-top: 5%;
+}
+.skills{
+    margin-top: 5%;
+}
+
+#myimage{
+   padding-top: 5%;
+   margin-left: 39%;
+   margin-right: auto;
+   width: 20%;
+}
+.color{
+    color: cornflowerblue;
+    text-align: center;
+}
+.centered{
+    text-align: center;
+}
+body{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body > div.container.second{
+    height: 40vh;
+}
+.coding{
+    margin-top:4%;
+    height: 40vh;
+}
+#coding-image{
+   display: block;
+   margin-left:20%;
+   float: left;
+}
+#coding-heading{
+    color: cornflowerblue;
+
+}
+#coding-para{
+    width: 85%;
+}
+.netflix{
+height: 30vh;
+}
+#netflix-image{
+    display: block;
+   margin-left:15%;
+   float: left;
+}
+#netflix-heading{
+    color: cornflowerblue;
+}
+
+
+@media (max-width:991px) {
+    .skills{
+        /* padding-top: 20%; */
+    }
+    #myskills{
+        padding-top: 5%;
+    }
+ 
+.coding{
+    display:flex;
+    height: 50vh;
+    flex-direction: column;
+}
+#coding-image{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+ }
+ #coding-heading{
+    color: cornflowerblue;
+    text-align: center;
+}
+#coding-para{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+}
+.netflix{
+    height: 40vh;
+}
+#netflix-image{
+    display: block;
+   margin-left:auto;
+   margin-right: auto ;
+   width: 50%;
+   float:none;
+}
+#netflix-heading{
+    color: cornflowerblue;
+    text-align: center;
+}
+#netflix-para{
+    text-align: center;
+}
+}
